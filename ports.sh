@@ -36,3 +36,8 @@ echo "📋 Reglas activas del firewall:"
 sudo ufw status numbered
 
 echo "✅ Todos los puertos fueron habilitados correctamente."
+
+# ================================
+# # Permitir múltiples conexiones simultáneas sudo nano /etc/ssh/sshd_config
+# MaxSessions 10
+# MaxStartups 10:30:100
